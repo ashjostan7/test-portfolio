@@ -1,5 +1,6 @@
 body{
-    background: black;
+    
+    background-image: url("./images/background.jpg");
     margin: 0px;
     padding:0px;
     font-family: 'Poppins' , sans-serif;
