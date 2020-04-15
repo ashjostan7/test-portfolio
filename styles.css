@@ -83,6 +83,7 @@ a{
         justify-content: space-between;
     }
     .icons{
+    margin-top:80px;
     width: 10%;
     margin-right:10%;
     display: flex;
