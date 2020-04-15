@@ -21,6 +21,7 @@ body{
     font-size: 20px;
 }
 .content{
+    margin-left: 8%;
     width:50%;
     height: 250px;
     margin-top: 150px;
@@ -43,6 +44,7 @@ body{
     height: auto;
 }
 .menu{ 
+    margin-right: 12%;
     font-size:18px;
     width: 15%;
     display: flex;
