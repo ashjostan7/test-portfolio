@@ -30,12 +30,13 @@ body{
     line-height: 0;
 }
 .content >p{
-    font-size:18px;;
+    font-size:18px;
     color:#3a7fb0;
 }
 .content >p> span{
-    color:#059cfa;
-    text-decoration:underline;
+    font-style:italic;
+    font-weight:bold;
+    
 }
 .mail{
     width:200px;
