@@ -12,8 +12,9 @@ body{
     margin-right:7%;
     height: 180vh;
 }
+
 .navbar{
-    margin-top:40px;
+    margin-top:8vh;
     display: flex;
     height: 60px;
     align-items: center;
@@ -21,12 +22,14 @@ body{
     font-size: 20px;
 }
 .content{
+    margin-top:25vh;
     margin-left: 8%;
     width:50%;
-    height: 250px;
-    margin-top:30vh;
+    height: 30vh;
+    
 }
 .content >h1{
+    
     line-height: 0;
 }
 .content >p{
@@ -83,7 +86,7 @@ a{
     .content {
       width: 95%;
       margin:auto;
-      margin-top:20vh;
+      margin-top:15vh;
       margin-bottom: 60px;
     }
     .content > h1{
