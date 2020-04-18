@@ -1,16 +1,16 @@
 body{
     
-    background-image: url("./images/background.jpg");
+    background-image: url("./images/background1.jpg");
     margin: 0px;
     padding:0px;
     font-family: 'Poppins' , sans-serif;
-    color: white;
+    color:#333e4f;
 }
 .container{
     width: 90%;
     margin-left: 7%;
     margin-right:7%;
-    height: 90vh;
+    height: 180vh;
 }
 .navbar{
     margin-top:40px;
@@ -24,14 +24,22 @@ body{
     margin-left: 8%;
     width:50%;
     height: 250px;
-    margin-top: 150px;
+    margin-top:30vh;
+}
+.content >h1{
+    line-height: 0;
 }
 .content >p{
-    color: grey;
+    font-size:18px;;
+    color:#3a7fb0;
+}
+.content >p> span{
+    color:#059cfa;
+    text-decoration:underline;
 }
 .mail{
     width:200px;
-	border: 1px solid white;
+	border: 1px solid #333e4f;
 	padding:5px 10px;
     border-radius:6px;
 
@@ -52,7 +60,7 @@ body{
     justify-content: space-between;
 }
 a{
-     color:white; 
+     color:#333e4f; 
      text-decoration:none; 
      cursor:pointer;  
 }
@@ -78,6 +86,7 @@ a{
       margin-bottom: 60px;
     }
     .content > h1{
+        line-height: 1;
         font-size: 28px;
     }
     .logo{
