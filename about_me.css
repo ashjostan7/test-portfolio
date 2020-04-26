@@ -48,7 +48,6 @@ a{
 }
 .pic{
     width:30%;
-    align-items: center;
 }.pic>img{
     height:40vh;
     width:auto;
@@ -70,13 +69,12 @@ a{
     }
     .about_me{
         flex-direction: column;
-        padding:0;
         align-items: left;
     }
     .pic{
-        width:100%
+        width:50%;
     }
     .pic>img{
-        height:25vh;
+        height:20vh;
     }
   }
