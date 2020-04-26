@@ -76,4 +76,7 @@ a{
     .pic{
         width:100%
     }
+    .pic>img{
+        height:25vh;
+    }
   }
