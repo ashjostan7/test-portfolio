@@ -22,7 +22,7 @@ body{
     font-size: 20px;
 }
 .content{
-    margin-top:25vh;
+    margin-top:15vh;
     margin-left: 8%;
     width:50%;
     height: 30vh;
@@ -32,14 +32,15 @@ body{
     
     line-height: 0;
 }
-.content >p{
-    font-size:18px;
-    color:#3a7fb0;
+#pre{
+    color: #3A7FB0;
+    font-size:16px;
+    font-weight: 300;
 }
-.content >p> span{
-    font-style:italic;
-    font-weight:bold;
-    
+#post{
+    color:#333E4F;
+    font-size:28px;;
+    font-weight:300;
 }
 .mail{
     width:200px;
@@ -82,6 +83,18 @@ a{
     align-items: flex-end;
     justify-content: space-between;
 }
+.content2{
+    margin-top:20vh;
+    margin-left: 8%;
+    width:75%;
+    height: 30vh;   
+}
+.content2 > p{
+    margin-top:10vh;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
 @media only screen and (max-width: 1200px) {
     .content {
       width: 95%;
@@ -92,6 +105,16 @@ a{
     .content > h1{
         line-height: 1;
         font-size: 28px;
+    }
+    #pre{
+        color: #3A7FB0;
+        font-size:16px;
+        font-weight: 300;
+    }
+    #post{
+        color:#333E4F;
+        font-size:18px;;
+        font-weight:300;
     }
     .logo{
         width:50%;
@@ -106,6 +129,17 @@ a{
     .icons{
         width:20%;
     font-size: 20px;
+    }
+
+    .content2{
+        margin-top:13vh;
+        width:80%;
+    }
+    .content2 > p{
+        margin-top: 4vh;;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
     }
 
   }
