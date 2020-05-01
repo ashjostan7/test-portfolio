@@ -1,6 +1,8 @@
 body{
     
-    background-image: url("./images/background1.jpg");
+    background-image: url("./images/background.jpg");
+    background-size:initial;
+    background-repeat: no-repeat;
     margin: 0px;
     padding:0px;
     font-family: 'Poppins' , sans-serif;
@@ -15,6 +17,7 @@ body{
 
 .navbar{
     margin-top:8vh;
+    position:relative;
     display: flex;
     height: 60px;
     align-items: center;
@@ -142,4 +145,10 @@ a{
         text-align: center;
     }
 
+  }
+  @media only screen and (min-width: 1800px) {
+      .container{
+          width:60%;
+          align-items: center;
+      }
   }
