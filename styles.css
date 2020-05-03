@@ -108,7 +108,7 @@ a{
     margin-top:10vh;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
 }
 .content2>span{
     font-style: italic;
@@ -180,7 +180,6 @@ a{
         margin-top: 4vh;;
         font-size: 12px;
         line-height: 1.2;
-        text-align: center;
     }
     .tables{
         font-size: 12px;
