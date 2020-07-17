@@ -19,7 +19,7 @@ function loadProjects(){
         for (var j=0; j<tags.length;j++)
         {
             
-            tag_list=tag_list+'<div><p>'+tags[j]+'</p></div>'
+            tag_list=tag_list+'<p>'+tags[j]+'</p>'
         }
         
         var section1 ='<div class="date">'+date+'</div><div class="header"><h5>'+heading+'</h5><div class="tags">'+tag_list+'</div>'

@@ -99,15 +99,17 @@ a{
     flex-direction: row;
     
 }
-.tags>div{
+.tags>p{
 
-    font-size: xx-small;
+    font-size: 8px;
     margin-top: -5%;
     border: 0.5px solid;
     padding-left: 1%;
     padding-right: 1%; 
-    color: black;
-    border-radius: 5%;
+    background-color:#b5b3b3;
+    color:white;
+    border-color: #7d7d7d;
+    border-radius: 3px;
     margin-left: 1%;
 }
 .description{
