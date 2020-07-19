@@ -14,9 +14,11 @@ body{
     width: 100%;
     /* margin-left: 7%;
     margin-right:7%; */
-    height: 180vh;
+    height: 200vh;
 }
-
+.content1{
+    height:100vh;
+}
 .navbar{
     /* background-color: #383131; */
     width: 90%;
@@ -30,6 +32,7 @@ body{
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
+    
 }
 .main_section{
 
@@ -69,12 +72,13 @@ body{
     height: auto;
 }
 .menu{ 
-    margin-right: 12%;
+    margin-right: 12;
     font-size:18px;
     width: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 }
 a{
     color: black; 
@@ -100,7 +104,7 @@ a{
     margin-top:20vh;
     margin-left: 8%;
     width:75%;
-    height: 30vh;   
+    height: 100vh;   
 }
 .content2 > p{
     width:80%;
@@ -110,9 +114,7 @@ a{
     line-height: 1.5;
     text-align: left;
 }
-.content2>span{
-    font-style: italic;
-}
+
 .tables{
     width:80%;
     margin-left: 15%;
@@ -140,6 +142,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 @media only screen and (max-width: 1200px) {
     .main_section {
@@ -192,12 +195,84 @@ a{
     .table{
         width:100%;
     }
+    .contact{
+        font-size: 15px;
+        
+    }
 
   }
   @media only screen and (min-width: 1800px) {
       .container{
-          width:60%;
-    padding-left: 15%;
-    padding-right:15% ;
+        width:60%;
+        padding-left: 15%;
+        padding-right:15% ;
       }
+      .logo{
+          width:95%;
+      }
+      .logo>img{
+          width: 80%;
+          height:auto;
+      }
+      .menu>a{
+          font-size: 30px;
+          font-weight:bold;
+      }
+      .main_section{
+          margin-top: 25vh;
+          width:70%;
+          height: 40vh;
+      }
+      .iconParent{
+          width:100%;
+          margin-right: 12%;
+      }
+      .icons{
+          font-size: 45px;
+      }
+      #pre{
+        /* color: #3A7FB0; */
+        font-size:24px;
+        font-weight: 300;
+    }
+    #post{
+        /* color:#333E4F; */
+        font-size:36px;
+        font-weight:300;
+    }
+
+    .main_section > h1{
+        line-height: 0;
+        font-size: 44px;
+    }
+    .mail{
+        width:300px;
+        border: 1px solid #333e4f;
+        padding:5px 10px;
+        border-radius:6px;
+        font-size: 25px;
+    
+    }
+    .content2{
+        margin-top:10vh;
+        height:90vh;
+        width:90%
+    }
+    .content2>p,.tables{
+        font-size: 22px;
+        width:100%;
+        margin-left: 0%;
+    }
+    .content2>h2{
+        font-size:35px;
+        
+    }
+    
+    .contact{
+        margin-top:5%;
+        margin-left:0%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        font-size: 25px;
+    }
   }

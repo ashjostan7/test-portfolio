@@ -162,15 +162,34 @@ a{
   }
   @media only screen and (min-width: 1800px) {
       .container{
-          width:70% !important;
-    padding-left: 15%;
-    padding-right:15% ;
+          width:80% !important;
+    padding-left: 10%;
+    padding-right:10% ;
       }
       .content{
-          height:50vh !important;
-          width: 80% !important;
+          height:60vh !important;
+          width: 90% !important;
       }
       .project_section{
           margin-top: 15vh;
       }
+      .logo{
+        width:40%;
+    }
+    .logo>img{
+        width: 40%;
+        height:auto;
+    }
+    .date{
+        font-size:medium;
+    }
+    .header>h5{
+        font-size: 20px;
+    }
+    .tags{
+        font-size: large;
+    }
+    .description{
+        font-size: 15px;
+    }
   }
