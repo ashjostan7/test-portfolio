@@ -47,7 +47,9 @@ body{
     
 }
 a{
-    color: black; 
+    color:#3f7cac ;
+    font-style: unset;
+    /* */
     /* color:#333e4f;  */
      text-decoration:none; 
      cursor:pointer;  
@@ -127,8 +129,8 @@ a{
     /* color:white !important;
     background-color: black; */
     display: flex;
-    justify-content: center;
-    margin-top: 5vh;
+    flex-direction: column;
+    align-items:center;
 } 
 
 .slick-prev:before {
