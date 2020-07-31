@@ -147,7 +147,8 @@ a{
 @media only screen and (max-width: 1200px) {
     .main_section {
       width: 90%;
-      margin:auto;
+      margin-left: 10%;
+      margin-right: 5%;
       margin-top:15vh;
       margin-bottom: 60px;
     }
@@ -160,6 +161,7 @@ a{
         font-weight: 300;
     }
     #post{
+        margin-right: 5%;
         font-size:18px;;
         font-weight:300;
     }
@@ -183,8 +185,10 @@ a{
         width:80%;
     }
     .content2 > p{
-        margin-top: 4vh;;
+        margin-top: 4vh;
+        width:95%;
         font-size: 12px;
+        margin-left: 5%;
         line-height: 1.2;
     }
     .tables{
